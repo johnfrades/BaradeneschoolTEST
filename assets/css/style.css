@@ -1,0 +1,322 @@
+body, html {
+    height: 100%;
+}
+
+#navbar-social {
+	float:right; 
+	margin-top:20px;
+}
+
+#navbar-social ul {
+	list-style: none;
+}
+
+#navbar-social li {
+	float: right;
+	padding: 3px;
+}
+
+#footer-social {
+	list-style: none; 
+	display: flex; 
+	padding-left: 0px; 
+	margin-top: 5%
+}
+
+ul#footer-social li {
+	display: flex;
+	padding: 3px;
+}
+
+#baradene-brand-div {
+	padding: 25px 0px;
+}
+
+#baradene-brand {
+	margin:0 auto; 
+	width: 50%
+}
+
+#bg { 
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 470px; 
+}
+
+#bg h1 {
+	font-size: 50px; 
+	font-family: 'Bad Script', cursive;
+}
+
+#inner-bg {
+	color: white;
+	margin-top: 5%;
+}
+
+#theNavBar {
+	background-color: #231F20;
+	color: whitesmoke;
+	padding: 1% 4%;
+}
+
+#theNavBar p{
+	margin-bottom: 0px;
+}
+
+.navbarText {
+	color: whitesmoke;
+	text-decoration: none !important;
+	font-size: 11px;
+}
+
+.navbarText:hover {
+	color: white;
+}
+
+.form-control {
+	border-radius: 0px !important;
+}
+
+.article-heading {
+	font-weight: 500; 
+	margin-top: 25px;
+}
+
+.article-body {
+	margin-bottom: 6%;
+}
+
+.article-body i {
+	margin-top: 18px;
+	color: #E0E1E2;
+}
+
+.article-body:hover {
+	cursor: pointer;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.inner-addon.right-addon {
+	margin-top: 5%;
+}
+
+.inner-addon.right-addon i {
+	color: #660000;
+}
+
+#head-search-input {
+	width: 50%;
+  float: right;
+  clear: both;
+}
+
+
+.right-addon .glyphicon { right: 0px;}
+
+.right-addon input { padding-right: 30px; }
+
+#article-links-container {
+	background-color: #F3F3F4;
+}
+
+#article-links-1st-row {
+	margin-top: 4%;
+}
+
+#article-links-2nd-row {
+	margin-top: 2%; 
+	margin-bottom: 4%;
+}
+
+.img-block {
+	position: relative;
+	display: block;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    width: 30%;
+    margin: 0px 15px;
+}
+
+.img-block-2nd {
+	position: relative;
+	display: block;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    width: 10%;
+    margin: 0px 15px;
+}
+
+.img-block .img-caption-newsevents, .img-block .img-caption-sportsresults {
+    position: absolute;
+    margin: 0;
+    padding: 11px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    background: #AB8041;
+ }
+
+ .img-block .img-caption-sports {
+    position: absolute;
+    margin: 0;
+    padding: 11px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    background: #660000;
+ }
+
+ .img-block-2nd .img-caption-transparent {
+    position: absolute;
+    margin: 0;
+    padding: 11px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background: rgba(0,0,0,0.5);
+ }
+
+ .flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-item-1st {
+    width: 100%;
+    height: 200px;
+    margin: 0px 6px;
+}
+.flex-item-2nd {
+    width: 100%;
+    height: 200px;
+    margin: 0px 6px;
+}
+
+#portal-login-button {
+	padding: 8px 25px;
+    background-color: transparent;
+    border: 2px solid #B3B5B7;
+    border-radius: 10px;
+    font-size: 8px;
+    font-weight: bold;
+    color: #737477;
+}
+
+#portal-subscribe-button {
+	padding: 8px 25px;
+    background-color: transparent;
+    border: 2px solid #B3B5B7;
+    border-radius: 10px;
+    font-size: 8px;
+    font-weight: bold;
+    color: #737477;
+}
+
+#footer-whole {
+	height: 350px;
+	background-color: #C5C6C6;
+}
+
+.footer-heading-text {
+	color: #737477;
+	margin-top: 35px;
+	margin-bottom: 6px;
+
+}
+
+.footer-body-text {
+	margin-top: 12%;
+	color: #737477;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.footer-content {
+	width: 15%;
+	margin: 0px 20px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #737477;
+  width: 17%;
+}
+
+.social-icons-head:hover {
+	cursor:pointer;
+}
+
+.social-icons-head {
+	border: 1px solid white; 
+	border-radius: 50%; 
+	text-align: center; 
+	line-height: 40px; 
+	width: 40px; 
+	height: 40px
+}
+
+.social-icons-head i {
+	font-size: 17px;
+	color: white;
+}
+
+.social-icons-footer:hover {
+	cursor: pointer;
+}
+
+.social-icons-footer {
+	border: 1px solid #737477;
+	border-radius: 50%; 
+	text-align: center; 
+	line-height: 30px; 
+	width: 30px; 
+	height: 30px
+}
+
+.social-icons-footer i {
+	color: #737477;
+}
+
+#parent-student-portal-button {
+	font-size: 12px; 
+	background-color: #AB8041; 
+	border: 1px solid #7b4236; 
+	color: white; 
+	border-radius: 6px;
+	margin-top: 5px;
+}
+
+#copyright-div {
+	background-color: #231F20;
+}
+
+#copyright-div h6{
+	color: white; 
+	margin: 0px; 
+	padding: 25px; 
+	font-size: 10px
+}
